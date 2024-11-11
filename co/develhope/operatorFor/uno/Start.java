@@ -9,7 +9,6 @@ public class Start {
         for (int i = 0; i < myColleagueNames.length; i++){
             System.out.println(myColleagueNames[i]);
         }
-
     }
 }
 
