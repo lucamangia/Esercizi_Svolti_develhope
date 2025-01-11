@@ -8,7 +8,10 @@ public class Rettangolo implements Forma{
     public Rettangolo(double area, double altezza) {
         this.area = area;
         this.altezza = altezza;
+
     }
+
+
 
     @Override
     public double calcolaArea() {

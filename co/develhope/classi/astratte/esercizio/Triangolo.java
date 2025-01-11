@@ -6,6 +6,7 @@ public class Triangolo extends Forma{
     private double base;
 
     public Triangolo(double altezza, double base) {
+        super(tipoForma.TRIANGOLO);
         this.altezza = altezza;
         this.base = base;
     }
