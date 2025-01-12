@@ -7,17 +7,17 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        /*Creare 3 hashmap con 3 differenti metodi di inizializzazione e stampare il contenuto.*/
+        /*Creare 3 hashmap con 3 differenti metodi di inizializzazione e stampare il contenuto.
 
         HashMap<String, String> capitali = new HashMap<>();
 
         capitali.put("Inghilterra", "Londra");
         capitali.put("Italia", "Roma");
 
-        //2°
+
         Map<String, String> capitali2 = new HashMap<String, String>(Map.of("Inghilterra", "Londra", "Italia", "Roma"));
 
-        //3°
+
         Map<String, String> capitali3 = new HashMap<String, String>(Map.ofEntries(
                 new AbstractMap.SimpleEntry<String, String>("Inghilterra", "Londra"),
                 new AbstractMap.SimpleEntry<String, String>("Italia", "Roma")));
@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println("----------------------------------------------------------");
 
-        /*Creare un hashmap, prendere tutti i valori, ordinarli e stamparli*/
+        /*Creare un hashmap, prendere tutti i valori, ordinarli e stamparli
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("B", 45);
@@ -58,6 +58,9 @@ public class Main {
                 });
 
         System.out.println(valori);
+        */
+
+
 
 
 
@@ -66,4 +69,6 @@ public class Main {
 
 
     }
+
+    public record point(int x,int y){};
 }
