@@ -7,7 +7,7 @@ import java.time.format.FormatStyle;
 import java.util.Locale;
 
 public class Main {
-    public class Date4 {
+
         public static void main(String[] args) {
             OffsetDateTime obj = OffsetDateTime.parse("2023-03-01T13:00:00Z");
 
@@ -22,4 +22,3 @@ public class Main {
 
 }
     }
-}
