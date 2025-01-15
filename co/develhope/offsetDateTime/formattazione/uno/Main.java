@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("-------------------Esercizio 1 -----------------------");
    /* Crea un oggetto OffsetDateTime da questa stringa 2002-03-01T13:00:00Z
     Formatta la data ottenuta in FULL, MEDIUM e SHORT
     Stampa le varie versioni*/
@@ -26,6 +25,7 @@ public class Main {
 
         String dataFull = data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL));
         System.out.println(dataFull);
+
 
     }
 }
