@@ -1,5 +1,7 @@
 package co.develhope.Lezioni.Lezione_03_12;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class prova {
@@ -24,7 +26,12 @@ public class prova {
             System.out.println("fuori range");
         }
 
+        Integer a1 = 10;
+        Integer b = 10;
+        boolean b1 = a == b;
+        List<String>strings = new ArrayList<>();
 
 
     }
+
 }
