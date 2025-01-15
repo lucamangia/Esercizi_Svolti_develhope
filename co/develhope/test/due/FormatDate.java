@@ -19,4 +19,8 @@ public class FormatDate {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofLocalizedDateTime(formatStyle).withLocale( locale);
         return zonedDateTime.format(dateTimeFormatter);
 }
+
+    public static String formattaData(String data) {
+        return null;
+    }
 }
